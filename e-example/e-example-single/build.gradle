@@ -27,7 +27,11 @@ bootRepackage {
 dependencies {
 	
 	compile ("com.17jee:e-core-static:${eversion}")
-	compile ("com.17jee:e-upm-service:${eversion}")
+	compile ("com.17jee:e-core:${eversion}")
+	compile ("com.17jee:e-upm-api:${eversion}")
+	compile ("com.17jee:e-security-password:${eversion}")
+	
+	compile ("com.17jee:e-upm-service:3.0.1.12")
 	compile ("com.17jee:e-upm-ui:3.0.1.12")
 	compile ("com.17jee:e-log-service:${eversion}")
 	compile ("com.17jee:e-log-ui:${eversion}")
